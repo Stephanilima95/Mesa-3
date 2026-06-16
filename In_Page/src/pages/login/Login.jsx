@@ -50,7 +50,7 @@ const Login = () => {
             <main className= "main_login">
           <div className="banner"></div>
           <section className="section_login">
-            <img alt="Logo do Filmoteca"/>
+            <h1 className="InPage">InPage</h1>
             <form action="" className="form_login">
                 <h1>Login</h1>
                 <div className="campos_login">

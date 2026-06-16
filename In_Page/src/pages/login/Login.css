@@ -1,4 +1,10 @@
 /* A mãe de todos: */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .main_login{
     display: flex;
 
@@ -7,7 +13,7 @@
 
 /* Banner da esquerda: */
 .banner{
-    background-image: url("../../assets/img/fundoLogin.png");
+    background-image: url("/public/Logo.png");
     flex: 1;
 
     /* Modificar algumas caracteristicas da imagem: */
@@ -19,8 +25,7 @@
 /* Form de login da direita: */
 .section_login{
     flex: 1;
-
-    background-color: #CC3F55;
+    background-color: #001044;
 
     /* Centraliza o campo: */
     display: flex;
@@ -30,7 +35,7 @@
 }
 
 .form_login{
-    color: white;
+    color: #D8EBF3 ;
 
     width: 70%;
     height: 50%;
@@ -80,3 +85,7 @@ partir de um tamanho de tela */
     }
 }
 
+.InPage{
+    color: #D8EBF3 ;
+    font-size: 60px;
+}
