@@ -160,3 +160,15 @@ C:\Users\50055487858\Desktop\BackEnd-3Semestre\ConnectPlus\InPage\obj\Debug\net1
 C:\Users\50055487858\Desktop\BackEnd-3Semestre\ConnectPlus\InPage\obj\Debug\net10.0\InPage.pdb
 C:\Users\50055487858\Desktop\BackEnd-3Semestre\ConnectPlus\InPage\obj\Debug\net10.0\InPage.genruntimeconfig.cache
 C:\Users\50055487858\Desktop\BackEnd-3Semestre\ConnectPlus\InPage\obj\Debug\net10.0\ref\InPage.dll
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.csproj.AssemblyReference.cache
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.AssemblyInfoInputs.cache
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.AssemblyInfo.cs
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.csproj.CoreCompileInputs.cache
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.sourcelink.json
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.dll
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\refint\InPage.dll
+C:\Users\41932003886\Desktop\Mesa-3\InPage\obj\Debug\net10.0\InPage.pdb
