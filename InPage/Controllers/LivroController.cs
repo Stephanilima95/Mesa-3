@@ -45,15 +45,15 @@ namespace InPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromForm] LivroDTO livro)
         {
-            if (String.IsNullOrWhiteSpace(livro.Nome))
-                return BadRequest("É Obrigatório que o Livro tenha Nome e Gênero");
+            if (String.IsNullOrWhiteSpace(livro.Titulo))
+                return BadRequest("É Obrigatório que o Livro tenha Titulo e Gênero");
 
-            Livro novoLivro = new livro();
+            Livro novoLivro = new Livro();
 
             if (livro.Imagem != null && livro.Imagem.Length > 0)
             {
                 var extensao = Path.GetExtension(livro.Imagem.FileName);
-                var nomeArquivo = $"{Guid.NewGuid()}{extensao}";
+                var TituloArquivo = $"{Guid.NewGuid()}{extensao}";
 
                 var pastaRelativa = "wwwroot/imagens";
                 var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
@@ -62,18 +62,19 @@ namespace InPage.Controllers
                 if (!Directory.Exists(caminhoPasta))
                     Directory.CreateDirectory(caminhoPasta);
 
-                var caminhoCompleto = Path.Combine(caminhoPasta, nomeArquivo);
+                var caminhoCompleto = Path.Combine(caminhoPasta, TituloArquivo);
 
                 using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
                 {
                     await livro.Imagem.CopyToAsync(stream);
                 }
 
-                novoLivro.Imagem = nomeArquivo;
+                novoLivro.Imagem = TituloArquivo;
             }
 
             novoLivro.IdGenero = livro.IdGenero.ToString();
             novoLivro.Titulo = livro.Titulo!;
+            novoLivro.Autor = livro.Autor!;
 
 
             try
@@ -88,51 +89,54 @@ namespace InPage.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Guid id, LivroDTO LivroAtualizado)
+        public async Task<IActionResult> Put(Guid id, LivroDTO livroAtualizado)
         {
 
-            var LivroBuscado = _livroRepository.BuscarPorId(id);
-            if (LivroBuscado == null)
+            var livroBuscado = _livroRepository.BuscarPorId(id);
+            if (livroBuscado == null)
                 return NotFound("Livro não encontrado!");
 
-            if (!String.IsNullOrWhiteSpace(LivroAtualizado.Nome))
-                LivroBuscado.Titulo = LivroAtualizado.Nome;
+            if (!String.IsNullOrWhiteSpace(livroAtualizado.Titulo))
+                livroBuscado.Titulo = livroAtualizado.Titulo;
 
-            if (LivroAtualizado.IdGenero != null && LivroBuscado.IdGenero != LivroAtualizado.IdGenero.ToString())
-                LivroBuscado.IdGenero = LivroAtualizado.IdGenero.ToString();
+            if (livroAtualizado.IdGenero != null && livroBuscado.IdGenero != livroAtualizado.IdGenero.ToString())
+                livroBuscado.IdGenero = livroAtualizado.IdGenero.ToString();
 
-            if (LivroAtualizado.Imagem != null && LivroAtualizado.Imagem.Length != 0)
+            if (!String.IsNullOrWhiteSpace(livroAtualizado.Autor))
+                livroBuscado.Autor = livroAtualizado.Autor;
+
+            if (livroAtualizado.Imagem != null && livroAtualizado.Imagem.Length != 0)
             {
                 var pastaRelativa = "wwwroot/imagens";
                 var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
                 //Deleta arquivo antigo
-                if (!String.IsNullOrEmpty(LivroBuscado.Imagem))
+                if (!String.IsNullOrEmpty(livroBuscado.Imagem))
                 {
-                    var caminhoAntigo = Path.Combine(caminhoPasta, LivroBuscado.Imagem);
+                    var caminhoAntigo = Path.Combine(caminhoPasta, livroBuscado.Imagem);
                     if (System.IO.File.Exists(caminhoAntigo))
                         System.IO.File.Delete(caminhoAntigo);
                 }
 
                 //Salva a nova imagem
-                var extensao = Path.GetExtension(LivroAtualizado.Imagem.FileName);
-                var nomeArquivo = $"{Guid.NewGuid()}{extensao}";
+                var extensao = Path.GetExtension(livroAtualizado.Imagem.FileName);
+                var TituloArquivo = $"{Guid.NewGuid()}{extensao}";
 
                 if (!Directory.Exists(caminhoPasta))
                     Directory.CreateDirectory(caminhoPasta);
 
-                var caminhoCompleto = Path.Combine(caminhoPasta, nomeArquivo);
+                var caminhoCompleto = Path.Combine(caminhoPasta, TituloArquivo);
 
                 using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
                 {
-                    await LivroAtualizado.Imagem.CopyToAsync(stream);
+                    await livroAtualizado.Imagem.CopyToAsync(stream);
                 }
 
-                LivroBuscado.Imagem = nomeArquivo;
+                livroBuscado.Imagem = TituloArquivo;
             }
 
             try
             {
-                _livroRepository.AtualizarIdUrl(id, LivroBuscado);
+                _livroRepository.AtualizarIdUrl(id, livroBuscado);
                 return NoContent();
             }
             catch (Exception erro)
@@ -142,11 +146,11 @@ namespace InPage.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put(Livro LivroAtualizado)
+        public IActionResult Put(Livro livroAtualizado)
         {
             try
             {
-                _livroRepository.AtualizarIdCorpo(LivroAtualizado);
+                _livroRepository.AtualizarIdCorpo(livroAtualizado);
                 return NoContent();
             }
             catch (Exception erro)
@@ -159,17 +163,17 @@ namespace InPage.Controllers
         public IActionResult Delete(Guid id)
         {
 
-            var LivroBuscado = _livroRepository.BuscarPorId(id);
-            if (LivroBuscado == null)
+            var livroBuscado = _livroRepository.BuscarPorId(id);
+            if (livroBuscado == null)
                 return NotFound("Livro não encontrado.");
 
             var pastaRelativa = "wwwroot/imagens";
             var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), pastaRelativa);
 
             //Deleta o arquivo
-            if (!String.IsNullOrEmpty(LivroBuscado.Imagem))
+            if (!String.IsNullOrEmpty(livroBuscado.Imagem))
             {
-                var caminho = Path.Combine(caminhoPasta, LivroBuscado.Imagem);
+                var caminho = Path.Combine(caminhoPasta, livroBuscado.Imagem);
 
                 if (System.IO.File.Exists(caminho))
                     System.IO.File.Delete(caminho);

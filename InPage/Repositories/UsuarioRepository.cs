@@ -1,11 +1,12 @@
 ﻿using InPage.BdContextInPage;
+using InPage.Interfaces;
 using InPage.Models;
 using InPage.Utils;
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace InPage.Repositories;
 
-public class UsuarioRepository
+public class UsuarioRepository : IUsuarioRepository
 {
     private readonly InPageContext _context;
 

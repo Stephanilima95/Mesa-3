@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InPage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b3e025ae011c3f34337a6c250cadc53d2d6b2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InPage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InPage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
