@@ -107,8 +107,7 @@
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:02:04.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T14:02:04.903Z"
             },
             {
               "$type": "Document",
@@ -120,8 +119,7 @@
               "RelativeToolTip": "Controllers\\LivroController.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAswJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:43:14.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:43:14.923Z"
             },
             {
               "$type": "Document",
@@ -133,8 +131,7 @@
               "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:05:26.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:05:26.816Z"
             },
             {
               "$type": "Document",
@@ -146,8 +143,7 @@
               "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:34:15.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:34:15.659Z"
             },
             {
               "$type": "Document",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "Repositories\\LivroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:08:22.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:08:22.313Z"
             },
             {
               "$type": "Document",
@@ -172,8 +167,7 @@
               "RelativeToolTip": "Interfaces\\ILivroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:03:45.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:03:45.725Z"
             },
             {
               "$type": "Document",
@@ -185,8 +179,7 @@
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:06:01.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T14:06:01.825Z"
             },
             {
               "$type": "Document",
@@ -198,8 +191,7 @@
               "RelativeToolTip": "DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:05:27.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T14:05:27.138Z"
             },
             {
               "$type": "Document",
@@ -211,8 +203,7 @@
               "RelativeToolTip": "Controllers\\GeneroController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAswDAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:41:31.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:41:31.433Z"
             },
             {
               "$type": "Document",
@@ -224,8 +215,7 @@
               "RelativeToolTip": "DTO\\LivroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T19:40:24.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T19:40:24.624Z"
             },
             {
               "$type": "Document",
