@@ -19,6 +19,7 @@ const CadastroLivro = () => {
   const [showLoading, setShowLoading] = useState(false);
 
 
+
   const limparFormulario = () => {
     setValor("");
     setValorSelect("");
@@ -33,15 +34,6 @@ const CadastroLivro = () => {
       return Alerta({
         title: "Atenção",
         text: "O nome do livro não pode estar em branco.",
-        icon: "warning",
-        confirmButtonText: "Ok",
-      });
-    }
-
-    if (valorSelect.trim().length === 0) {
-      return Alerta({
-        title: "Atenção",
-        text: "O gênero não pode estar em branco.",
         icon: "warning",
         confirmButtonText: "Ok",
       });
