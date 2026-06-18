@@ -10,7 +10,7 @@ const Cadastro = (props) => {
 
         <div className="campos_cadastro">
             <div className="campo_cad_nome">
-              {props.visibilidade !== null ? (
+              {props.visibilidade !== "none" ? (
                 <label htmlFor="titulo">Título</label>
               ) : (
                 <label htmlFor="nome">Nome</label>
@@ -18,7 +18,7 @@ const Cadastro = (props) => {
 
               <input
                 type="text"
-                name={props.visibilidade !== null ? "titulo" : "nome"}
+                name={props.visibilidade !== "none" ? "titulo" : "nome"}
                 placeholder={`Digite o ${props.visibilidade !== null ? "titulo" : "nome"} do ${props.placeholder}`}
                 value={props.valor}
                 onChange={(e) => props.setValor(e.target.value)}
