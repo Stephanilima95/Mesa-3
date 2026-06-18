@@ -1,0 +1,110 @@
+.cadastro-livro {
+    min-height: 100vh;
+    background: linear-gradient(
+        180deg,
+        #E7E8E6 0%,
+        #D8EBF3 100%
+    );
+
+    padding: 40px;
+}
+
+.cadastro-livro h1,
+.cadastro-livro h2 {
+    color: #001044;
+}
+
+.cadastro-container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 16, 68, 0.15);
+    margin-bottom: 40px;
+}
+
+.lista-container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 16, 68, 0.15);
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    border: 2px solid #D8EBF3;
+    border-radius: 10px;
+
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #001044;
+}
+
+button {
+    background: #001044;
+    color: #E7E8E6;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 24px;
+
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0B1724;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #001044;
+    color: #E7E8E6;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #D8EBF3;
+}
+
+tr:hover {
+    background: #f5f8fa;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn-editar {
+    background: #D8EBF3;
+    color: #001044;
+}
+
+.btn-excluir {
+    background: #c62828;
+    color: white;
+}
+
+.btn-resumo {
+    background: #001044;
+    color: white;
+}
