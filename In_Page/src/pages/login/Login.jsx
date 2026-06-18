@@ -6,7 +6,7 @@ import api from "../../services/services";
 import { jwtDecode } from "jwt-decode";
 import Logo from "/public/Logo.png"
 import { Alerta } from "../../components/alerta/Alerta";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -97,7 +97,7 @@ const Login = () => {
               }}
             />
 
-            <p>Não tem uma conta?</p>
+            <p>Não tem uma conta? <Link to="/cadastro">Cadastrar</Link></p>
           </form>
         </section>
       </main>
