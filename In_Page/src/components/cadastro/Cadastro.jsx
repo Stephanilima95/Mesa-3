@@ -19,7 +19,7 @@ const Cadastro = (props) => {
               <input
                 type="text"
                 name={props.visibilidade !== "none" ? "titulo" : "nome"}
-                placeholder={`Digite o ${props.visibilidade !== null ? "titulo" : "nome"} do ${props.placeholder}`}
+                placeholder={`Digite o ${props.visibilidade !== "none" ? "titulo" : "nome"} do ${props.placeholder}`}
                 value={props.valor}
                 onChange={(e) => props.setValor(e.target.value)}
               />
@@ -46,7 +46,7 @@ const Cadastro = (props) => {
               ))}
             </select>
           </div>
-          <div className="campo_cad_nome">
+          <div className="campo_cad_nome" style={{ display: props.visibilidade }}>
             <label htmlFor="autor">Autor</label>
             <input type="text" name="autor" placeholder="Digite o nome do autor" value={props.valorAtor} onChange={(e) => props.setValorAtor(e.target.value)}/>
           </div>

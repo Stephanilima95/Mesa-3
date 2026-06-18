@@ -70,7 +70,7 @@ const Lista = (props) => {
                                             {item.autor}
                                         </td> 
                                         <td data-cell="Resumo" style={{ display: props.visibilidade }}>
-                                            <button className="icon" onClick={() => props.funcResumo(item)}>
+                                            <button  className="icon" onClick={() => props.funcResumo(item)}>
                                                 <img src={Resumo} alt="Lixeira" />
                                             </button>
                                         </td>
@@ -80,10 +80,6 @@ const Lista = (props) => {
                                             }
                                             }>
                                                 <img src={Editar} alt="Caneta" />
-                                            </button>
-                                        </td>
-                                        <td><button className="icon" onClick={() => props.funcResumo(item)}>
-                                            <img src={Resumo} alt="Olho" />
                                             </button>
                                         </td>
                                         <td data-cell="Excluir">

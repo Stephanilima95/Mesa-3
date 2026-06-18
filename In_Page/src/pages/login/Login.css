@@ -13,7 +13,7 @@
 
 /* Banner da esquerda: */
 .banner{
-    background-image: url("/src/assets/Logo.png");
+    background-image: url("/public/Logo.png");
     flex: 1;
 
     /* Modificar algumas caracteristicas da imagem: */

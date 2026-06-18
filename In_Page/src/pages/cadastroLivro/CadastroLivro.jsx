@@ -2,6 +2,7 @@ import { useState } from "react";
 import Cadastro from "../../components/cadastro/Cadastro";
 import Lista from "../../components/lista/Lista";
 import api from "../../services/services";
+import Header from "../../components/header/Header";
 
 const CadastroLivro = () => {
 
@@ -23,6 +24,7 @@ const CadastroLivro = () => {
 
   return (
     <>
+    <Header />
       <Cadastro
         tituloCadastro="Cadastro de livro"
         placeholder="livro"
@@ -43,10 +45,7 @@ const CadastroLivro = () => {
         tituloLista="Lista de livros"
         funcResumo={console.log}
         tipoLista="livro"
-        lista={listaGeneros}
         // dunção que muda o state
-        funcExcluir={excluirGenero}
-        funcEditar={preEditar}
       />
     </>
   );
