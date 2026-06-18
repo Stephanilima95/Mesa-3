@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 import { UsuarioContext } from "../../context/UsuarioContext";
 import api from "../../services/services";
 import { jwtDecode } from "jwt-decode";
+import Logo from "/public/Logo.png"
 import { Alerta } from "../../components/alerta/Alerta";
 import { useNavigate } from "react-router-dom";
 
@@ -57,8 +58,7 @@ const Login = () => {
   return (
     <div className="container">
       <main className="main_login">
-        <div className="banner"></div>
-
+<img src={Logo} alt="" />
         <section className="section_login">
           <h1 className="InPage">InPage</h1>
 
