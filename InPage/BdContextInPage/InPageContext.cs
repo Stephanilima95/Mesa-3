@@ -30,19 +30,19 @@ public partial class InPageContext : DbContext
     {
         modelBuilder.Entity<Genero>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Genero__3214EC070225B580");
+            entity.HasKey(e => e.Id).HasName("PK__Genero__3214EC07B598F21F");
         });
 
         modelBuilder.Entity<Livro>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Livro__3214EC07F39915B5");
+            entity.HasKey(e => e.Id).HasName("PK__Livro__3214EC074391CD5F");
 
             entity.HasOne(d => d.IdGeneroNavigation).WithMany(p => p.Livros).HasConstraintName("FK__Livro__IdGenero__5EBF139D");
         });
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__5B65BF970A646497");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__5B65BF979BD2ABE3");
         });
 
         OnModelCreatingPartial(modelBuilder);

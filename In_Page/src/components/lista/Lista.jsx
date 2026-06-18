@@ -23,12 +23,11 @@ const Lista = (props) => {
                                 <th style={{ display: props.visibilidade }}>Imagem</th>
                                 {/* th => table head */}
                                 {props.visibilidade !== null ? (
-                                    <th>Título</th>
+                                    <th>Nome</th>
                                 ) : (
                                     <th>Nome</th>
                                 )}
                                 <th style={{ display: props.visibilidade }}>Autor</th>
-                                <th style={{ display: props.visibilidade }}>Gênero</th>
                                 <th>Editar</th>
                                 <th style={{display: props.visibilidade}}>Resumo</th>
                                 <th>Excluir</th>

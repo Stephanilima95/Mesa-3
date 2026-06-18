@@ -1,0 +1,101 @@
+.cadastro-genero {
+    min-height: 100vh;
+    background: #E7E8E6;
+}
+
+.secao-cadastro {
+    background: #001044;
+    padding: 60px;
+}
+
+.secao-cadastro h1 {
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.linha {
+    width: 60%;
+    height: 2px;
+    background: #D8EBF3;
+    margin: 0 auto 30px;
+}
+
+.formulario-genero {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: center;
+}
+
+.campo {
+    width: 600px;
+}
+
+.campo label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #D8EBF3;
+    color: #001044;
+    font-size: 16px;
+}
+
+.formulario-genero button {
+    height: 48px;
+    min-width: 180px;
+    border: none;
+    border-radius: 10px;
+    background: #D8EBF3;
+    color: #001044;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-cancelar {
+    background: #c62828 !important;
+    color: white !important;
+}
+
+.secao-lista {
+    padding: 50px;
+    background: #E7E8E6;
+}
+
+.secao-lista h2 {
+    text-align: center;
+    color: #001044;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+th {
+    color: #001044;
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 2px solid #D8EBF3;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #D8EBF3;
+}
+
+tr:hover {
+    background: rgba(216, 235, 243, 0.3);
+}

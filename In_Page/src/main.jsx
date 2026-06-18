@@ -7,7 +7,7 @@ import { UsuarioProvider } from './context/UsuarioProvider.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <UsuarioProvider>
-    <App />
+      <App />
     </UsuarioProvider>
   </StrictMode>,
 )
