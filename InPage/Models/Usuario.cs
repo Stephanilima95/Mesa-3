@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace InPage.Models;
 
 [Table("Usuario")]
-[Index("Email", Name = "UQ__Usuario__A9D10534044B5172", IsUnique = true)]
+[Index("Email", Name = "UQ__Usuario__A9D105348B66254A", IsUnique = true)]
 public partial class Usuario
 {
     [Key]

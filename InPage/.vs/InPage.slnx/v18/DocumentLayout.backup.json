@@ -1,78 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\",
+  "WorkspaceRootPath": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\bdcontextinpage\\inpagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:bdcontextinpage\\inpagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:interfaces\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:repositories\\livrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\dto\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\dto\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:dto\\livrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\dto\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\dto\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:dto\\generodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:utils\\criptografia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\inpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\inpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:inpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\43180121823\\desktop\\atividade projeto livros\\mesa-3\\inpage\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|c:\\users\\50055487858\\desktop\\mesa-3\\inpage\\bdcontextinpage\\inpagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6FCAAAB-ED97-68FB-09B5-A858F9C2A741}|InPage.csproj|solutionrelative:bdcontextinpage\\inpagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,34 +88,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Program.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAADoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T14:07:17.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:02:04.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\LivroController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\LivroController.cs",
               "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\LivroController.cs",
               "RelativeToolTip": "Controllers\\LivroController.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAAswJEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\IUsuarioRepository.cs",
               "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\UsuarioRepository.cs",
               "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\LivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\LivroRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\LivroRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\LivroRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\LivroRepository.cs",
               "RelativeToolTip": "Repositories\\LivroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,11 +147,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "InPageContext.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\BdContextInPage\\InPageContext.cs",
+              "RelativeDocumentMoniker": "BdContextInPage\\InPageContext.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\BdContextInPage\\InPageContext.cs",
+              "RelativeToolTip": "BdContextInPage\\InPageContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T18:59:41.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T14:02:04.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ILivroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\ILivroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\ILivroRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ILivroRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\ILivroRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\ILivroRepository.cs",
               "RelativeToolTip": "Interfaces\\ILivroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,11 +183,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,11 +195,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\LoginDTO.cs",
               "RelativeToolTip": "DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,11 +207,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\GeneroController.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\GeneroController.cs",
               "RelativeDocumentMoniker": "Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Controllers\\GeneroController.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Controllers\\GeneroController.cs",
               "RelativeToolTip": "Controllers\\GeneroController.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAswDAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,11 +219,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LivroDTO.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\LivroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\LivroDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LivroDTO.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\LivroDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\LivroDTO.cs",
               "RelativeToolTip": "DTO\\LivroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +231,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\UsuarioDTO.cs",
               "RelativeToolTip": "DTO\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,11 +243,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GeneroDTO.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\GeneroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\GeneroDTO.cs",
               "RelativeDocumentMoniker": "DTO\\GeneroDTO.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\DTO\\GeneroDTO.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\DTO\\GeneroDTO.cs",
               "RelativeToolTip": "DTO\\GeneroDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Criptografia.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Utils\\Criptografia.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Utils\\Criptografia.cs",
               "RelativeDocumentMoniker": "Utils\\Criptografia.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Utils\\Criptografia.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Utils\\Criptografia.cs",
               "RelativeToolTip": "Utils\\Criptografia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IGeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\IGeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\IGeneroRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IGeneroRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Interfaces\\IGeneroRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Interfaces\\IGeneroRepository.cs",
               "RelativeToolTip": "Interfaces\\IGeneroRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "InPage.csproj",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\InPage.csproj",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\InPage.csproj",
               "RelativeDocumentMoniker": "InPage.csproj",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\InPage.csproj",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\InPage.csproj",
               "RelativeToolTip": "InPage.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -279,27 +291,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\GeneroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\GeneroRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GeneroRepository.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\Repositories\\GeneroRepository.cs",
+              "ToolTip": "C:\\Users\\43180121823\\Desktop\\Atividade Projeto Livros\\Mesa-3\\InPage\\Repositories\\GeneroRepository.cs",
               "RelativeToolTip": "Repositories\\GeneroRepository.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAqwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T19:06:29.662Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "InPageContext.cs",
-              "DocumentMoniker": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\BdContextInPage\\InPageContext.cs",
-              "RelativeDocumentMoniker": "BdContextInPage\\InPageContext.cs",
-              "ToolTip": "C:\\Users\\50055487858\\Desktop\\Mesa-3\\InPage\\BdContextInPage\\InPageContext.cs",
-              "RelativeToolTip": "BdContextInPage\\InPageContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T18:59:41.315Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
