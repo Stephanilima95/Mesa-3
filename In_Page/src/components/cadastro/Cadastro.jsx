@@ -40,7 +40,7 @@ const Cadastro = (props) => {
               </option>
 
               {props.listaGeneros?.map((item) => (
-                <option key={item.idGenero} value={item.idGenero}>
+                <option key={item.id} value={item.id}>
                   {item.nome}
                 </option>
               ))}

@@ -15,7 +15,11 @@
 .listagem h1{
     text-transform: uppercase;
 }
-
+.card-sem-registro{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
 .listagem hr {
     max-width: 300px;
     width: 100%;
@@ -108,7 +112,7 @@ td[data-cell="Imagem"] img{
 
     border-radius: 10px;
 
-    border: solid 2px #73061B;
+    border: solid 2px #001044;
 
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 

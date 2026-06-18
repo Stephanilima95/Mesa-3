@@ -27,9 +27,10 @@ const Lista = (props) => {
                                 ) : (
                                     <th>Nome</th>
                                 )}
+                                <th style={{ display: props.visibilidade }}>Gênero</th>
                                 <th style={{ display: props.visibilidade }}>Autor</th>
-                                <th>Editar</th>
                                 <th style={{display: props.visibilidade}}>Resumo</th>
+                                <th>Editar</th>
                                 <th>Excluir</th>
                             </tr>
                         </thead>

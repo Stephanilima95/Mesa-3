@@ -6,6 +6,7 @@ import api from "../../services/services";
 import Cadastro from "../../components/cadastro/Cadastro";
 import { Alerta } from "../../components/alerta/Alerta";
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
 
 const CadastroGenero = () => {
   // const apiUrl = "https://localhost:7187/api/Genero";
@@ -189,7 +190,6 @@ const CadastroGenero = () => {
       Editar={editar}
       setEditar={setEditar}
       cancelarEdicao={cancelarEdicao}
-      atualizar={atualizarGenero}
       visibilidade={"none"}
       funcEditar={preEditar}
       funcExcluir={excluirGenero}
@@ -205,7 +205,7 @@ const CadastroGenero = () => {
         visibilidade={"none"}
         funcEditar={preEditar}
       />
-      
+      <Footer/>
     </>
   );
 };
