@@ -1,44 +1,43 @@
-/* A mãe de todos: */
+/* A mãe de todos */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.main_login{
-    display: flex;
 
-        height: 100vh;
+.main_cadastro_usuario {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
 }
 
-/* Banner da esquerda: */
-.banner{
+/* Banner da esquerda */
+.banner_cadastro_usuario {
     background-image: url("/public/Logo.png");
     flex: 1;
 
-    /* Modificar algumas caracteristicas da imagem: */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-/* Form de login da direita: */
-.section_login{
+/* Form de cadastro da direita */
+.section_cadastro_usuario {
     flex: 1;
     background-color: #001044;
 
-    /* Centraliza o campo: */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.form_login{
-    color: #D8EBF3 ;
+.form_cadastro_usuario {
+    color: #D8EBF3;
 
     width: 70%;
-    height: 50%;
+    height: 60%;
 
     display: flex;
     justify-content: space-around;
@@ -46,23 +45,21 @@
     flex-direction: column;
 }
 
-.form_login h1{
-    /* Vai deixar o titulo com letras maiusculas */
+.form_cadastro_usuario h1 {
     text-transform: uppercase;
 }
 
-.campos_login{
+.campos_cadastro_usuario {
     width: 100%;
 }
 
-.campo_input {
+.campo_input_cadastro {
     display: flex;
     flex-direction: column;
-
     margin-bottom: 20px;
 }
 
-.campo_input input{
+.campo_input_cadastro input {
     height: 30px;
     padding: 0 10px;
     margin-top: 7px;
@@ -73,19 +70,14 @@
     box-shadow: 1px 4px 4px 0px #00000045;
 }
 
-/* RESPONSIVIDADE 😊🤪🎉 */
-
-/* Me de algumas caracteristicas a 
-partir de um tamanho de tela */
-@media screen and (max-width: 768px){
-    /* 0px -> 768px */
-    .banner{
-        /* display: nonde; =>desaparece o banner */
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .banner_cadastro_usuario {
         display: none;
     }
 }
 
-.InPage{
-    color: #D8EBF3 ;
+.InPage {
+    color: #D8EBF3;
     font-size: 60px;
 }

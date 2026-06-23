@@ -1,0 +1,138 @@
+.listagem {
+    /* vamos retirar:
+        header: 75px
+        cadastro: 252px
+        footer: 40px */
+    min-height: calc(100vh - (75px + 252px + 40px));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 0;
+    background-color: var(--listagem_background);
+    color: var(--listagem_text_color);
+}
+
+.listagem h1 {
+    text-transform: uppercase;
+}
+
+.card-sem-registro {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.listagem hr {
+    max-width: 300px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #73061B;
+    margin-top: 5px;
+}
+
+.item_lista img {
+    height: 28px;
+}
+
+.tabela {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tabela table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.table_cabecalho {
+    color: var(--listagem_text_color);
+
+}
+
+.tabela .table_cabecalho :first-child {
+    width: 300px;
+    color: var(--listagem_text_color);
+}
+
+.tabela .table_cabecalho :nth-child(2) {
+    width: 200px;
+}
+
+.tabela .table_cabecalho th {
+    width: 100px;
+}
+
+.item_lista td {
+    /* desgrudar o item do titulo */
+    padding: 20px 0 10px 0;
+}
+
+.item_lista {
+    text-align: center;
+
+    border-bottom: solid 1px #73061B20;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* 1px - 768px */
+    .tabela thead {
+        display: none;
+    }
+
+    /* Um elemento abaixo do outro: */
+    .item_lista td {
+        display: grid;
+        text-align: left;
+        padding: 10px 10px 10px 0;
+        grid-template-columns: 10ch auto;
+    }
+
+    .item_lista td::before {
+        /* Adiciona o data-cell do html e coloca os : depois */
+        content: attr(data-cell) ":";
+        font-weight: 700;
+        width: 80px;
+        text-align: left;
+    }
+
+    .item_lista td:last-child {
+        margin-bottom: 24px;
+    }
+
+    .item_lista td:first-child {
+        margin-top: 24px;
+    }
+}
+
+
+.icon {
+    border: none;
+    background: none;
+    width: fit-content;
+}
+
+td[data-cell="Imagem"] img {
+    width: 80px;
+    height: 80px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    border: solid 2px #001044;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    transition: 0.3s;
+}
+
+td[data-cell="Imagem"] img:hover {
+    transform: scale(1.08);
+
+    cursor: pointer;
+}

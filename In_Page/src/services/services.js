@@ -2,7 +2,7 @@
     import axios from "axios";
 
     // Define a porta onde a API local está rodando
-   export const apiPort = "7199";
+   export const apiPort = "7286";
 
     // Monta a URL base para a API local, usando a porta definida
     const localApi = `https://localhost:${apiPort}/api`;
