@@ -24,8 +24,14 @@
 
 /* Form de cadastro da direita */
 .section_cadastro_usuario {
-    flex: 1;
-    background-color: #001044;
+flex: 1;
+
+    background: linear-gradient(
+        160deg,
+        #000814 0%,
+        #001d3d 40%,
+        #003566 100%
+    );
 
     display: flex;
     flex-direction: column;
@@ -47,6 +53,10 @@
 
 .form_cadastro_usuario h1 {
     text-transform: uppercase;
+}
+
+.form_cadastro_usuario p {
+    font-size: 20px;    
 }
 
 .campos_cadastro_usuario {
@@ -79,5 +89,5 @@
 
 .InPage {
     color: #D8EBF3;
-    font-size: 60px;
+    font-size: 110px;
 }

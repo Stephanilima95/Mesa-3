@@ -23,11 +23,16 @@
 }
 
 /* Form de login da direita: */
-.section_login{
+.section_login {
     flex: 1;
-    background-color: #001044;
 
-    /* Centraliza o campo: */
+    background: linear-gradient(
+        160deg,
+        #000814 0%,
+        #001d3d 40%,
+        #003566 100%
+    );
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +54,10 @@
 .form_login h1{
     /* Vai deixar o titulo com letras maiusculas */
     text-transform: uppercase;
+}
+
+.form_login p{
+    font-size: 20px;
 }
 
 .campos_login{
