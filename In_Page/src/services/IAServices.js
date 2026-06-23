@@ -1,5 +1,4 @@
-import api from "./Services";
-
+import api from "./services";
 
 
 export const gerarResumo = async (titulo, descricao = "") => {
@@ -14,7 +13,7 @@ export const gerarResumo = async (titulo, descricao = "") => {
           {
             role: "user",
             content: `
-              Faça uma sinopse simples do livro abaixo, use um limite de 200 palavras, caso não saiba o suficiente sobre o livro, diga exatamente e somente "O livro "[nome do livro]" não tem uma sinopse disponível.", não peça mais nada, pois isto não é dialogo com respostas, mas se souber o minimo sobre o livro faça a sinopse normalmente:
+              Faça uma sinopse simples do livro abaixo:
 
               Título: ${titulo}
             `,

@@ -201,7 +201,6 @@ const CadastroGenero = () => {
         tituloLista="Gênero de Livros"
         tipoLista="genero"
         lista={listaGeneros}
-        // dunção que muda o state
         funcExcluir={excluirGenero}
         visibilidade={"none"}
         funcEditar={preEditar}

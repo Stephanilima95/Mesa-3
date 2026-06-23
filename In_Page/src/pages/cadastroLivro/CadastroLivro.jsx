@@ -163,7 +163,6 @@ const CadastroLivro = () => {
   };
 
   const resumoDoLivro = async (livro) => {
-    debugger;
     setShowLoading(true)
     try {
       const resumoIA = await gerarResumo(livro.titulo)
