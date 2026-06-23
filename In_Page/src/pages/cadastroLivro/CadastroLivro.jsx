@@ -5,6 +5,7 @@ import api from "../../services/services";
 import Header from "../../components/header/Header";
 import { Alerta } from "../../components/alerta/Alerta";
 import Footer from "../../components/footer/Footer";
+import { gerarResumo } from "../../services/IAservices";
 
 const CadastroLivro = () => {
   const [valor, setValor] = useState("");
@@ -15,6 +16,9 @@ const CadastroLivro = () => {
   const [lista, setLista] = useState([]);
   const [idEditar, setIdEditar] = useState("");
   const [listaGeneros, setListaGeneros] = useState([]);
+  const [showLoading, setShowLoading] = useState(false);
+
+
 
   const limparFormulario = () => {
     setValor("");
@@ -30,15 +34,6 @@ const CadastroLivro = () => {
       return Alerta({
         title: "Atenção",
         text: "O nome do livro não pode estar em branco.",
-        icon: "warning",
-        confirmButtonText: "Ok",
-      });
-    }
-
-    if (valorSelect.trim().length === 0) {
-      return Alerta({
-        title: "Atenção",
-        text: "O gênero não pode estar em branco.",
         icon: "warning",
         confirmButtonText: "Ok",
       });
@@ -166,6 +161,26 @@ const CadastroLivro = () => {
     }
   };
 
+  const resumoDoLivro = async (livro) => {
+    debugger;
+    setShowLoading(true)
+    try {
+      const resumoIA = await gerarResumo(livro.titulo)
+      setShowLoading(false)
+      Alerta({
+        title: `${livro.titulo}`,
+        text: resumoIA,
+        icon: "success",
+        confirmButtonText: "Fechar",
+      })
+    } catch (error) {
+      console.log("Deu ruim");
+      console.log(error);
+
+      setShowLoading(false);
+    }
+  }
+
   const getLivros = async () => {
     try {
       const retornoAPI = await api.get("/livro");
@@ -234,8 +249,10 @@ const CadastroLivro = () => {
         tipoLista="livro"
         funcEditar={preEditar}
         funcExcluir={excluirLivro}
+        funcResumo={resumoDoLivro}
+
       />
-      <Footer/>
+      <Footer />
     </>
   );
 };

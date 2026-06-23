@@ -194,6 +194,7 @@ const CadastroGenero = () => {
       funcEditar={preEditar}
       funcExcluir={excluirGenero}
       
+      
       />
 
       <Lista
