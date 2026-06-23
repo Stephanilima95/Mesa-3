@@ -2,15 +2,18 @@ import "./Lista.css";
 
 // Importação de imagens:
 import Editar from "/public/editar.png";
+import EditarClaro from "/public/editarClaro.jpeg";
 import Excluir from "/public/excluir.png";
 import Resumo from "/public/resumo.png";
 import { apiPort } from "../../services/services";
-
+import { useContext } from "react";
+import { TemaContext } from "../../context/TemaContext";
 
 const Lista = (props) => {
+    const { tema, setTema } = useContext(TemaContext)
     return (
         <section className="layout_grid">
-            <div className="listagem">
+            <div className="listagem" id="listagem">
 
                 <h1>{props.tituloLista}</h1>
                 <hr />
@@ -23,15 +26,15 @@ const Lista = (props) => {
                                 <th style={{ display: props.visibilidade }}>Imagem</th>
                                 {/* th => table head */}
                                 {props.visibilidade !== null ? (
-                                    <th>Nome</th>
+                                    <th className="table_cabecalho">Nome</th>
                                 ) : (
-                                    <th>Nome</th>
+                                    <th className="table_cabecalho">Nome</th>
                                 )}
-                                <th style={{ display: props.visibilidade }}>Gênero</th>
-                                <th style={{ display: props.visibilidade }}>Autor</th>
-                                <th style={{display: props.visibilidade}}>Resumo</th>
-                                <th>Editar</th>
-                                <th>Excluir</th>
+                                <th className="table_cabecalho" style={{ display: props.visibilidade }}>Gênero</th>
+                                <th className="table_cabecalho" style={{ display: props.visibilidade }}>Autor</th>
+                                <th className="table_cabecalho" style={{ display: props.visibilidade }}>Resumo</th>
+                                <th className="table_cabecalho">Editar</th>
+                                <th className="table_cabecalho">Excluir</th>
                             </tr>
                         </thead>
                         {/* tbody => corpo da tabela */}
@@ -69,10 +72,10 @@ const Lista = (props) => {
                                         </td>
                                         <td data-cell="Autor" style={{ display: props.visibilidade }}>
                                             {item.autor}
-                                        </td> 
-                                        <td data-cell="Resumo" style={{ display: props.visibilidade }}>
-                                            <button  className="icon" onClick={() => props.funcResumo(item)}>
-                                                <img src={Resumo} alt="Lixeira" />
+                                        </td>
+                                        <td data-cell="Resumo" id="lixo" style={{ display: props.visibilidade }}>
+                                            <button className="icon" onClick={() => props.funcResumo(item)}>
+                                                <img src={tema === "dark" ? Resumo : Resumo} alt="Lixeira" />
                                             </button>
                                         </td>
                                         <td data-cell="Editar">
@@ -80,12 +83,12 @@ const Lista = (props) => {
                                                 props.funcEditar(item)
                                             }
                                             }>
-                                                <img src={Editar} alt="Caneta" />
+                                                <img src={tema === "dark" ? Editar : Editar} alt="Caneta" />
                                             </button>
                                         </td>
                                         <td data-cell="Excluir">
                                             <button className="icon" onClick={() => props.funcExcluir(item)}>
-                                                <img src={Excluir} alt="Lixeira" />
+                                                <img src={tema === "dark" ? Excluir : Excluir} alt="Lixeira" />
                                             </button>
                                         </td>
                                     </tr>

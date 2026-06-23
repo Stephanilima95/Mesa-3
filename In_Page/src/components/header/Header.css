@@ -3,6 +3,8 @@ header {
     height: 75px;
     border-bottom: 1px solid #D8EBF3;
     position: relative;
+    background-color: var(--cadastro_background);
+    color: var(--cadastro_text_color);
 }
 
 .cabecalho {
