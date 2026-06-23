@@ -149,6 +149,7 @@ const CadastroLivro = () => {
         title: "Excluído!",
         text: `O livro ${item.titulo} foi excluído com sucesso!`,
         icon: "success",
+        confirmButtonText: "Fechar",
       });
     } catch (error) {
       console.log(error);
